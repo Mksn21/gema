@@ -91,7 +91,7 @@ if add_selectbox == "Home":
 elif add_selectbox =="Data":
     st.header("Silahkan Untuk download telebih Dahulu")
     st.subheader("Silahkan Ke link berikut:")
-    link = "https://drive.google.com/file/d/1fuCwAJtfYcHtwEsC_jVK2GD4ZmZ1RUYF/view?usp=sharing"
+    link = "https://drive.google.com/file/d/1EZ9R9sE1WbTsceGBh4zzUBKB7-unb6TA/view?usp=sharing"
     st.markdown(link,unsafe_allow_html=True)
 
         
