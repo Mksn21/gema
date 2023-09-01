@@ -86,7 +86,7 @@ if add_selectbox == "Home":
         st.write("07311940000010")
         st.write("5023201005")
         st.write("5023211023")
-    st.subheader("Dosen Pembimbing")
+    st.subheader("Dosen Pembimbing :")
     st.write("Nada Fitrieyatul Hikmah, S.T., M.T.")
         
 
