@@ -56,7 +56,7 @@ co = serial_ports()
 
 st.title("Sleep Apnea Detection")
 add_selectbox = st.sidebar.selectbox(
-    "Menu",("Home", "Data", "HRV","Hasil")
+    "Menu",("Home", "HRV","Hasil")
 )
 
 
@@ -196,9 +196,9 @@ elif add_selectbox == "Hasil":
             df = pd.read_csv(uploaded_file)
             prediction = knn.predict(df)
             if prediction[0] == 1 :
-                st.header("Apnea")
+                st.header(":red[Apnea]")
             else : 
-                st.header("Normal")
+                st.header(":green[Normal]")
 
 
 
